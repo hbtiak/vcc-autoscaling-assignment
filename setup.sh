@@ -1,6 +1,3 @@
-#!/bin/bash
-# My VCC assignment setup
-
 echo "create template."
 gcloud compute instance-templates create my-template \
     --machine-type=e2-micro \
